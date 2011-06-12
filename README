@@ -41,6 +41,6 @@ the oclc executable.
 Known Problems
 ==============
 
-No known bugs so far.
-
+ * The code provides no means to pass flags to the
+   compiler.
 
