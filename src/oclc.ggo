@@ -1,0 +1,10 @@
+package "oclc"
+version "0.0.1"
+purpose "OpenCL source-to-binary compiler"
+
+option "output"
+       o
+       "Output file"
+       optional
+       string
+
