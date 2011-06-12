@@ -1,0 +1,44 @@
+    *** OpenCL Compiler ***
+
+
+Table of contents
+=================
+
+ o Introduction
+ o Requirements
+ o Installation
+ o Known Problems
+
+
+Introduction
+============
+
+OCLC (OpenCL Compiler) provides a wrapper around
+the OpenCL just-in-time compilation that allows
+to create binary data that can be loaded using
+clCreateProgramWithBinary.
+
+
+Requirements
+============
+
+The code is writtin in C. You will need an OpenCL
+implementation. OCLC has been tested only with the
+NVIDIA OpenCL implementation.
+
+
+Installation
+============
+
+Currently, one has to manually edit the Makefile.in
+file to specify the C compiler and the include and
+link flags for OpenCL. The build process produces
+the oclc executable.
+
+
+Known Problems
+==============
+
+No known bugs so far.
+
+

@@ -1,7 +1,5 @@
 
-CC      = gcc
-CFLAGS  = -I/opt/gpucomp/3.2/OpenCL/common/inc -I.
-LDFLAGS = -lOpenCL
+include Makefile.in
 
 #
 # Default target
