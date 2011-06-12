@@ -25,6 +25,8 @@ Requirements
 The code is writtin in C. You will need an OpenCL
 implementation. OCLC has been tested only with the
 NVIDIA OpenCL implementation.
+The code uses GNU gengetopt which must be installed
+and in the PATH.
 
 
 Installation
