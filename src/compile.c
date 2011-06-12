@@ -39,7 +39,7 @@ void oclc_compile(const char *input, size_t sz_input, void **output, size_t *sz_
     OCLC_INSIST(1 == num_platforms);
     OCLC_CL_CHECK(clGetPlatformIDs(1, &platform_id, NULL));
 
-    OCLC_CL_CHECK(clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_GPU, 1, &device_id, &num_devices));
+    OCLC_CL_CHECK(clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_DEFAULT, 1, &device_id, &num_devices));
     OCLC_INSIST(num_devices > 0);
 
     context = clCreateContext(NULL, 1, &device_id, NULL, NULL, &errcode_ret);
